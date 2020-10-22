@@ -6,11 +6,6 @@
  <van-cell :title="Button" is-link to="/Button" />
  <van-cell :title="cell"  is-link  to="/cell" />
 </section>
-<van-tabbar route  v-model="active" >
-<van-tabbar-item icon="wap-home-o" replace to="/">首页</van-tabbar-item>
-<van-tabbar-item icon="more-o" >列表</van-tabbar-item>
-  <van-tabbar-item icon="contact">关于</van-tabbar-item>
-</van-tabbar>
 </div>
 </template>
 <script>

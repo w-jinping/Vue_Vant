@@ -22,6 +22,11 @@ const constantRoutes = [
     name: 'cell',
     component: () => import('@/views/cell/index.vue'),
   },
+  {
+    path: '/user',
+    name: 'user',
+    component: () => import('@/views/user/index.vue'),
+  },
 ]
 
 const createRouter = () => new Router({

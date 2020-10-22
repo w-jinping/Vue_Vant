@@ -3,13 +3,15 @@
     <div id="app">
     <demo-nav />
     <router-view />
+    <tabbar />
   </div>
 </template>
 
 <script>
 import DemoNav from './components/DemoNav';
+import tabbar from './components/tabbar'
 export default {
-  components: { DemoNav },
+  components: { DemoNav,tabbar},
   name: 'App',
 }
 </script>
